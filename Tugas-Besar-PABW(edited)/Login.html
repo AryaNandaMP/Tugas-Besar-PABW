@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="css/Login.css">
+	<script type="text/javascript" src="js/validasiLg.js"></script>
+</head>
+<body>
+<div class="content-container">
+
+
+	<div class="topnav">
+  <a href="landing-page.html">Home</a>
+  <a href="#trending">Trending</a>
+  <a href="#aboutus">About Us</a>
+  <a href="#profile">Profile</a>
+  <a class="active" href="Login.html">Login</a>
+   <form action="">
+        <input type="text" placeholder="Search..">
+        <input type="submit" name="" id="   " value="cari">
+    </form>
+
+	</div>
+
+	<div class="container">
+        	
+   
+
+	<form name="myFormLg" action="#" method="POST" onSubmit="return validasiLg()">
+		<div class="container-form">
+			
+		
+			<table>
+				<tr>
+					<td>
+					<div class="title">
+						<h3><u>Login</u></h3>
+					</div>
+					</td>
+
+				</tr>
+				<tr>
+					<td>Username : </td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="username" id="username"></td>
+				</tr>
+
+				<tr>
+					<td>Password : </td>
+				</tr>
+
+				<tr>
+					<td><input type="password" name="password" id="password"></td>
+				</tr>
+			
+
+				<tr>
+            		<td><button type="submit" enabled="enabled" onclick="document.location='user-home.html'">Login</button></td>
+            	</tr>
+
+            	<tr>
+           			<td> <div class="kaki">Belum daftar? Silakan <a href="Register.html" id="Login">Daftar</a></div></tr>
+        	
+        	</table>
+        </div>	
+	</form>
+
+	</div>
+
+	<div class="footer">
+			<h3>Gym-Ya&trade;</h3>
+	</div>	
+</div>
+
+</body>
+
+</html>
